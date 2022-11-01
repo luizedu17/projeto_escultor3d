@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "sculptor.h"
-
+// https://www.techiedelight.com/pt/dynamic-memory-allocation-in-c-for-2d-3d-array/ - site alocacao de memoria
 using namespace std;
 //construtor
 Sculptor::Sculptor(int _nx, int _ny, int _nz)
