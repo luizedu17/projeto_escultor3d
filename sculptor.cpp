@@ -6,6 +6,7 @@ using namespace std;
 //construtor
 Sculptor::Sculptor(int _nx, int _ny, int _nz)
 {
+    //construtor
     int i, j;
     nx=_nx;//numero de linhas
     ny=_ny;//numero de colunas
@@ -18,11 +19,7 @@ Sculptor::Sculptor(int _nx, int _ny, int _nz)
       }
     }
 
-    //alocacao dinamica de memoria
-    //Voxel*** v = new Voxel**[nx];
-    //v[0] = new Voxel*[nx*ny];
-    //v[0][0]= new Voxel[nx*ny*nz];
-}
+   
 //destrutor
 Sculptor::~Sculptor(){
     for(int i = 0; i < nx; i++){
