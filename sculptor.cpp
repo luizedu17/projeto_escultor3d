@@ -10,6 +10,7 @@ Sculptor::Sculptor(int _nx, int _ny, int _nz)
     nx=_nx;//numero de linhas
     ny=_ny;//numero de colunas
     nz=_nz;//numero de planos
+    //alocacao dinamica de memoria
     v = new Voxel**[nx];
     for(int i = 0; i < nx; i++){
       v[i] = new Voxel*[ny];
@@ -18,7 +19,6 @@ Sculptor::Sculptor(int _nx, int _ny, int _nz)
       }
     }
 
-    //alocacao dinamica de memoria
     //Voxel*** v = new Voxel**[nx];
     //v[0] = new Voxel*[nx*ny];
     //v[0][0]= new Voxel[nx*ny*nz];
